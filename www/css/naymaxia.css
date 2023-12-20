@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#table-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#header-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#header-container h1 {
+    display: inline-block;
+    margin: 0 20px;
+    color: #6a1b9a; 
+}
+
+#header-container h2, #header-container h3 {
+    display: inline-block;
+    margin: 0 20px;
+    color: #757575; 
+}
+
+#naymaxia_board, #target_board {
+    width: 45%;
+    display: inline-block;
+    margin-right: 2.4%;
+    margin-left: 2.4%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#naymaxia_board table, #target_board table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+#naymaxia_board td, #target_board td {
+    width: 4em;
+    height: 4em;
+    border: 1px solid #6a1b9a;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+}
+
+#game_initializer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input, select, button {
+    margin: 5px;
+}
+
+.btn-primary {
+    background-color: #6a1b9a;
+    border-color: #6a1b9a;
+}
+
+#game_info, #game_result, #move_div, #hit_div {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #757575;
+    color: #fff;
+    border-radius: 8px;
+}
+
+#game_result {
+    text-align: center;
+}
+
+#the_naymaxia_set_ship, #Ready {
+    margin: 5px;
+}
+
+IMG.piece {
+    width: 100%; /* Make the images fill the table cells */
+    height: 100%;
+}

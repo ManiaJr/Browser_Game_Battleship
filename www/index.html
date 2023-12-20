@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>ADISE23_HLMA: Ναυμαχία</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/naymaxia.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="js/naymaxia.js"></script>
+    </head>
+    <body>
+        <div id="table-container">
+            <div id="header-container">
+                <h2>Main</h2>
+                <h1>Ναυμαχία</h1>
+                <h3>Target</h2>
+            </div>
+            <div id='naymaxia_board'>
+            </div>
+            <div id='target_board'>
+            </div> 
+        </div>
+        <div id='game_initializer'>
+            <input id='username'>
+            <select id='pcolor'>
+                <option value="B">B</option>
+                <option value="R">R</option>
+            </select>
+            <button id="naymaxia_login" class="btn btn-primary">Login in</button>
+        </div>
+
+        <div id="info-result-container">
+            <div id='game_info'>
+            </div>
+    
+            <div id='game_result'>
+            </div>
+        </div>
+
+        <div id='move-hit-container'>
+            <div id='move_div'>
+                Set ship coordinates( Start(x y) - Finish(x y)): <input id='the_naymaxia_set_ship'>  <button id='do_naymaxia_set_ship' class='btn btn-primary'>Set Ship</button><br>
+                <button id='Ready' class='btn btn-primary'>Ready</button><br>
+                <br> You are allotted 4 ships: one measuring 2 units, another 3 units, a third 4 units, and the last 5 units in length.<br>
+            </div>
+    
+            <div id="hit_div">
+                Set hit (x y):
+                <br>If X appears, you've missed; if O appears, you've hitted the target.<br>
+            </div>
+        </div>
+        </body>
+</html>
